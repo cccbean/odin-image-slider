@@ -1,0 +1,51 @@
+:root {
+  --btn-height: 5rem;
+}
+
+* {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  /* overflow: hidden; */
+}
+
+.slider {
+  display: flex;
+  background-color: black;
+  position: relative;
+  width: 500px;
+  height: 756px;
+}
+
+.left-btn, 
+.right-btn {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+
+.right-btn {
+  right: 0px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  position: absolute;
+  bottom: 0%;
+  left: calc(50% - 80px);
+}
+
+.circle {
+  background-color: #808080;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
